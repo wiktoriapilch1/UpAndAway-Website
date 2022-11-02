@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Multimedia/favi.png">
     <?php
-        $polaczenie = new mysqli("localhost", "wiktoria.pilch1", "Poi5on71.", "wiktoria.pilch1");
+        $polaczenie = new mysqli("localhost", "root", "", "space");
         session_start();
     ?>
 </head>
