@@ -1,0 +1,1164 @@
+@media screen and (min-width: 1201px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Joan;
+    }
+    @font-face {
+        src: url("Fonts/KdamThmorPro-Regular.ttf");
+        font-family: Kdam;
+    }
+    @font-face {
+        src: url("Fonts/Joan-Regular.ttf");
+        font-family: Joan;
+    }
+    .upperMenu {
+        background-color: #000000;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    div.upperMenu {
+        background-color: #121212;
+        color: white;
+        height: 5vh;
+        max-height: 5vh;
+        width: 100%;
+        text-align: right;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .logowanie a {
+        color: white;
+    }
+    .logowanie:hover * {
+        color: #FFAC41;
+    }
+    #screen {
+        background-image: url("Multimedia/nasa2.jpg");
+        max-height: 90vh;
+        background-repeat: no-repeat;
+    }
+    #main {
+        padding-top: 6%;
+        background-image: url("Multimedia/bc2.jpg");
+        color: white;
+        max-height: 70vh;
+        width: 100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    #firstSection {
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 60px;
+        border: 2px solid white;
+        color: white;
+        font-family: Joan;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+    span a:hover {
+        color: #FFAC41;
+    }
+    .btn:hover {
+        color: #FFAC41;
+        border: 2px solid #FFAC41;
+    }
+    .btn:hover * {
+        color: #FFAC41;
+    }
+    #imagesDiv {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 4%;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row {
+        width: 80%;
+        margin-top: 6%;
+        text-align: center;
+        height: 90vh;
+        max-height: 90vh;
+        background-color: #000000;
+    }
+    footer {
+        background-color: #FF1E56;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        font-family: Kdam;
+        clear: both;
+        height: 10vh;
+        padding-top: 4vh;
+    }
+    .menuA {
+        font-family: Kdam;
+    }
+    footer p {
+        font-family: Kdam;
+    }
+    main {
+        height: 260vh;
+        max-height: 260vh;
+        background-color: black;
+        width: 100%;
+    }
+    .galleryRow:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .galleryRow {
+        height: 50vh;
+        max-height: 50vh;
+    }
+    .galleryColumn {
+        float: left;
+        width: 25%;
+        padding: 4%;
+    }
+    .galleryColumn img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .galleryColumn img:hover {
+        opacity: 1;
+    }
+    .container {
+        position: relative;
+        display: none;
+    }
+    #imgtext {
+        color: white;
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #expandedImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .comment:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .comment {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        height: 20vh;
+        max-height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .userData {
+        border: 2px solid white;
+        width: 30%;
+        height: 25vh;
+        max-height: 30vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .usernames {
+        color: #FFAC41;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .ofertaDiv {
+        border: 2px solid white;
+        width: 30%;
+        height: 40vh;
+        max-height: 40vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .ofertaDiv:hover {
+        margin: 1%;
+        border: 2px solid #FF1E56;
+    }
+    .formField {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .inputField {
+        height: 30px;
+        width: 200px;
+        margin: 2%;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+    #smallScreen {
+        width: 60vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Joan;
+    }
+    @font-face {
+        src: url("Fonts/KdamThmorPro-Regular.ttf");
+        font-family: Kdam;
+    }
+    @font-face {
+        src: url("Fonts/Joan-Regular.ttf");
+        font-family: Joan;
+    }
+    .upperMenu {
+        background-color: #000000;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    div.upperMenu {
+        background-color: #121212;
+        color: white;
+        height: 5vh;
+        max-height: 5vh;
+        width: 100%;
+        text-align: right;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .logowanie a {
+        color: white;
+    }
+    .logowanie:hover * {
+        color: #FFAC41;
+    }
+    #screen {
+        background-image: url("Multimedia/nasa1.jpg");
+        max-height: 90vh;
+        background-repeat: no-repeat;
+    }
+    #main {
+        padding-top: 6%;
+        background-image: url("Multimedia/bc1.jpg");
+        color: white;
+        max-height: 70vh;
+        height: 70vh;
+    }
+    #firstSection {
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 60px;
+        border: 2px solid white;
+        color: white;
+        font-family: Joan;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+    span a:hover {
+        color: #FFAC41;
+    }
+    .btn:hover {
+        color: #FFAC41;
+        border: 2px solid #FFAC41;
+    }
+    .btn:hover * {
+        color: #FFAC41;
+    }
+    #imagesDiv {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 4%;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row {
+        width: 80%;
+        margin-top: 6%;
+        text-align: center;
+        height: 90vh;
+        max-height: 90vh;
+        background-color: #000000;
+    }
+    footer {
+        background-color: #FF1E56;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        font-family: Kdam;
+        clear: both;
+        height: 10vh;
+        padding-top: 4vh;
+    }
+    .menuA {
+        font-family: Kdam;
+    }
+    footer p {
+        font-family: Kdam;
+    }
+    main {
+        height: 260vh;
+        max-height: 260vh;
+        background-color: black;
+    }
+    .galleryRow:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .galleryRow {
+        height: 50vh;
+        max-height: 50vh;
+    }
+    .galleryColumn {
+        float: left;
+        width: 25%;
+        padding: 4%;
+    }
+    .galleryColumn img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .galleryColumn img:hover {
+        opacity: 1;
+    }
+    .container {
+        position: relative;
+        display: none;
+    }
+    #imgtext {
+        color: white;
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #expandedImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .comment:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .comment {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        height: 20vh;
+        max-height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .userData {
+        border: 2px solid white;
+        width: 30%;
+        height: 25vh;
+        max-height: 30vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .usernames {
+        color: #FFAC41;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .ofertaDiv {
+        border: 2px solid white;
+        width: 30%;
+        height: 40vh;
+        max-height: 40vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .ofertaDiv:hover {
+        margin: 1%;
+        border: 2px solid #FF1E56;
+    }
+    .formField {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .inputField {
+        height: 30px;
+        width: 200px;
+        margin: 2%;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+    #smallScreen {
+        width: 60vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Joan;
+    }
+    @font-face {
+        src: url("Fonts/KdamThmorPro-Regular.ttf");
+        font-family: Kdam;
+    }
+    @font-face {
+        src: url("Fonts/Joan-Regular.ttf");
+        font-family: Joan;
+    }
+    .upperMenu {
+        background-color: #000000;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    div.upperMenu {
+        background-color: #121212;
+        color: white;
+        height: 5vh;
+        max-height: 5vh;
+        width: 100%;
+        text-align: right;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .logowanie a {
+        color: white;
+    }
+    .logowanie:hover * {
+        color: #FFAC41;
+    }
+    #screen {
+        background-image: url("Multimedia/nasa1.jpg");
+        max-height: 90vh;
+        background-repeat: no-repeat;
+    }
+    #main {
+        padding-top: 6%;
+        background-image: url("Multimedia/bc1.jpg");
+        color: white;
+        max-height: 70vh;
+        height: 70vh;
+    }
+    #firstSection {
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 60px;
+        border: 2px solid white;
+        color: white;
+        font-family: Joan;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+    span a:hover {
+        color: #FFAC41;
+    }
+    .btn:hover {
+        color: #FFAC41;
+        border: 2px solid #FFAC41;
+    }
+    .btn:hover * {
+        color: #FFAC41;
+    }
+    #imagesDiv {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .column {
+        float: left;
+        width: 100%;
+        padding: 4%;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row {
+        width: 80%;
+        margin-top: 6%;
+        text-align: center;
+        height: 120vh;
+        max-height: 120vh;
+        background-color: #000000;
+    }
+    footer {
+        background-color: #FF1E56;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        font-family: Kdam;
+        clear: both;
+        height: 10vh;
+        padding-top: 4vh;
+    }
+    .menuA {
+        font-family: Kdam;
+    }
+    footer p {
+        font-family: Kdam;
+    }
+    #mian {
+        background-color: black;
+    }
+    main {
+        height: 550vh;
+        max-height: 550vh;
+        background-color: black;
+    }
+    .galleryRow:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .galleryRow {
+        height: 50vh;
+        max-height: 50vh;
+    }
+    .galleryColumn {
+        float: left;
+        width: 25%;
+        padding: 4%;
+    }
+    .galleryColumn img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .galleryColumn img:hover {
+        opacity: 1;
+    }
+    .container {
+        position: relative;
+        display: none;
+    }
+    #imgtext {
+        color: white;
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #expandedImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .comment:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .comment {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        height: 20vh;
+        max-height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .userData {
+        border: 2px solid white;
+        width: 60vh;
+        height: 30vh;
+        max-height: 30vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .usernames {
+        color: #FFAC41;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .ofertaDiv {
+        border: 2px solid white;
+        width: 30%;
+        height: 40vh;
+        max-height: 40vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .ofertaDiv:hover {
+        margin: 1%;
+        border: 2px solid #FF1E56;
+    }
+    .formField {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .inputField {
+        height: 30px;
+        width: 200px;
+        margin: 2%;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Joan;
+    }
+    @font-face {
+        src: url("Fonts/KdamThmorPro-Regular.ttf");
+        font-family: Kdam;
+    }
+    @font-face {
+        src: url("Fonts/Joan-Regular.ttf");
+        font-family: Joan;
+    }
+    .upperMenu {
+        background-color: #000000;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    div.upperMenu {
+        background-color: #121212;
+        color: white;
+        height: 5vh;
+        max-height: 5vh;
+        width: 100%;
+        text-align: right;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .logowanie a {
+        color: white;
+    }
+    .logowanie:hover * {
+        color: #FFAC41;
+    }
+    #screen {
+        background-image: url("Multimedia/nasa1.jpg");
+        max-height: 90vh;
+        background-repeat: no-repeat;
+    }
+    #main {
+        padding-top: 6%;
+        background-image: url("Multimedia/bc1.jpg");
+        color: white;
+        max-height: 70vh;
+        height: 70vh;
+    }
+    #firstSection {
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 60px;
+        border: 2px solid white;
+        color: white;
+        font-family: Joan;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+    span a:hover {
+        color: #FFAC41;
+    }
+    .btn:hover {
+        color: #FFAC41;
+        border: 2px solid #FFAC41;
+    }
+    .btn:hover * {
+        color: #FFAC41;
+    }
+    #imagesDiv {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .column {
+        float: left;
+        width: 100%;
+        padding: 4%;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row {
+        width: 80%;
+        margin-top: 6%;
+        text-align: center;
+        height: 120vh;
+        max-height: 120vh;
+        background-color: #000000;
+    }
+    footer {
+        background-color: #FF1E56;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        font-family: Kdam;
+        clear: both;
+        height: 10vh;
+        padding-top: 4vh;
+    }
+    .menuA {
+        font-family: Kdam;
+        padding: 2vh;
+    }
+    footer p {
+        font-family: Kdam;
+    }
+    main {
+        height: 550vh;
+        max-height: 550vh;
+        background-color: black;
+    }
+    .galleryRow:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .galleryRow {
+        height: 50vh;
+        max-height: 50vh;
+    }
+    .galleryColumn {
+        float: left;
+        width: 25%;
+        padding: 4%;
+    }
+    .galleryColumn img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .galleryColumn img:hover {
+        opacity: 1;
+    }
+    .container {
+        position: relative;
+        display: none;
+    }
+    #imgtext {
+        color: white;
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #expandedImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .comment:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .comment {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        height: 90vh;
+        max-height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .userData {
+        border: 2px solid white;
+        width: 80vh;
+        height: 35vh;
+        max-height: 35vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .usernames {
+        color: #FFAC41;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .ofertaDiv {
+        border: 2px solid white;
+        width: 100%;
+        height: 60vh;
+        max-height: 60vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .ofertaDiv:hover {
+        margin: 1%;
+        border: 2px solid #FF1E56;
+    }
+    .formField {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .inputField {
+        height: 30px;
+        width: 200px;
+        margin: 2%;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Joan;
+    }
+    @font-face {
+        src: url("Fonts/KdamThmorPro-Regular.ttf");
+        font-family: Kdam;
+    }
+    @font-face {
+        src: url("Fonts/Joan-Regular.ttf");
+        font-family: Joan;
+    }
+    .upperMenu {
+        background-color: #000000;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    div.upperMenu {
+        background-color: #121212;
+        color: white;
+        height: 5vh;
+        max-height: 5vh;
+        width: 100%;
+        text-align: right;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .logowanie a {
+        color: white;
+    }
+    .logowanie:hover * {
+        color: #FFAC41;
+    }
+    #screen {
+        background-image: url("Multimedia/nasa1.jpg");
+        max-height: 90vh;
+        background-repeat: no-repeat;
+    }
+    #main {
+        padding-top: 6%;
+        background-image: url("Multimedia/bc1.jpg");
+        color: white;
+        max-height: 70vh;
+        height: 70vh;
+    }
+    #firstSection {
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .btn {
+        width: 140px;
+        height: 60px;
+        border: 2px solid white;
+        color: white;
+        font-family: Joan;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+    span a:hover {
+        color: #FFAC41;
+    }
+    .btn:hover {
+        color: #FFAC41;
+        border: 2px solid #FFAC41;
+    }
+    .btn:hover * {
+        color: #FFAC41;
+    }
+    #imagesDiv {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .column {
+        float: left;
+        width: 100%;
+        padding: 4%;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row {
+        width: 80%;
+        margin-top: 6%;
+        text-align: center;
+        height: 120vh;
+        max-height: 120vh;
+        background-color: #000000;
+    }
+    footer {
+        background-color: #FF1E56;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        font-family: Kdam;
+        clear: both;
+        height: 10vh;
+        padding-top: 4vh;
+    }
+    .menuA {
+        font-family: Kdam;
+        padding: 2vh;
+    }
+    footer p {
+        font-family: Kdam;
+    }
+    main {
+        height: 560vh;
+        max-height: 560vh;
+        background-color: black;
+    }
+    .galleryRow:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .galleryRow {
+        height: 50vh;
+        max-height: 50vh;
+    }
+    .galleryColumn {
+        float: left;
+        width: 25%;
+        padding: 4%;
+    }
+    .galleryColumn img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .galleryColumn img:hover {
+        opacity: 1;
+    }
+    .container {
+        position: relative;
+        display: none;
+    }
+    #imgtext {
+        color: white;
+        text-align: center;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #expandedImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .comment:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .comment {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        height: 90vh;
+        max-height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .userData {
+        border: 2px solid white;
+        width: 80vh;
+        height: 35vh;
+        max-height: 35vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .usernames {
+        color: #FFAC41;
+        font-family: Joan;
+        font-size: 20px;
+    }
+    .ofertaDiv {
+        border: 2px solid white;
+        width: 100%;
+        height: 60vh;
+        max-height: 60vh;
+        float: left;
+        text-align: center;
+        padding: 2%;
+        clear: both;
+        margin-bottom: 2%;
+    }
+    .ofertaDiv:hover {
+        margin: 1%;
+        border: 2px solid #FF1E56;
+    }
+    .formField {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .inputField {
+        height: 30px;
+        width: 200px;
+        margin: 2%;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+}
